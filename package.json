@@ -1,0 +1,43 @@
+{
+  "name": "restfulize_promise",
+  "description": "Node.js restful framework",
+  "version": "2.0.0",
+  "author": {
+    "name": "Jason Futch",
+    "email": "jasonfutch@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonfutch/restfulize_promise/issues"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "bluebird": "^3.5.0",
+    "crypto": "0.0.3",
+    "dateformat": "^1.0.12",
+    "extend": "^3.0.0",
+    "marked": "^0.3.6",
+    "node-uuid": "^1.4.7",
+    "pg": "^7.2.0",
+    "sql-string": "^1.0.7",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.3.4",
+    "validator": "^4.9.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "homepage": "https://github.com/jasonfutch/restfulize_promise",
+  "license": "MIT",
+  "main": "./index.js",
+  "maintainers": [
+    {
+      "name": "jasonfutch",
+      "email": "jasonfutch@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonfutch/restfulize_promise"
+  }
+}
