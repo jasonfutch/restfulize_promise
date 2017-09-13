@@ -37,6 +37,7 @@ exports.loadData = (dir,aryDataFiles) => {
     exports.data = $dataTables.load(dir,aryDataFiles);
     exports.dataObjects = $dataTables.dataObjects;
     exports.errorCode = $dataTables.errorCode;
+    exports.logCode = $dataTables.logCode;
     exports.routineDefinitions = $dataTables.routineDefinitions;
     exports.helpers = $dataTables.helpers;
 };
