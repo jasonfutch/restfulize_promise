@@ -1,7 +1,7 @@
 {
   "name": "restfulize_promise",
   "description": "Node.js restful framework",
-  "version": "2.5.2",
+  "version": "2.5.3",
   "author": {
     "name": "Jason Futch",
     "email": "jasonfutch@gmail.com"
