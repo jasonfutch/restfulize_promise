@@ -12,11 +12,13 @@
   "dependencies": {
     "array-find-index": "^1.0.2",
     "async": "^1.5.2",
+    "aws-sdk": "2.219.1",
     "bluebird": "^3.5.0",
     "crypto": "0.0.3",
     "dateformat": "^1.0.12",
     "elasticsearch": "^14.0.0",
     "extend": "^3.0.0",
+    "http-aws-es": "4.0.0",
     "marked": "^0.3.6",
     "node-uuid": "^1.4.7",
     "pg": "^7.3.0",
