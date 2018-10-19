@@ -8,6 +8,7 @@ var $insert                 = require('./lib/insert');
 var $list                   = require('./lib/list');
 var $tasks                  = require('./lib/tasks');
 var $sql                    = require('./lib/postgres');
+var $redshift               = require('./lib/redshift');
 var $elasticsearch          = require('./lib/elasticsearch');
 var $request                = require('./lib/request');
 var $routines               = require('./lib/routines');
@@ -24,6 +25,7 @@ exports.insert              = $insert;
 exports.list                = $list;
 exports.tasks               = $tasks;
 exports.sql                 = $sql;
+exports.redshift            = $redshift;
 exports.elastic             = $elasticsearch;
 exports.request             = $request;
 exports.routines            = $routines;
@@ -35,8 +37,8 @@ exports.data                = {};
 exports.dataObjects         = {};
 exports.routineDefinitions  = {};
 
-exports.loadData = (dir,aryDataFiles) => {
-    exports.data = $dataTables.load(dir,aryDataFiles);
+exports.loadData = (dir,aryDataFiles, bolForceRun) => {
+    exports.data = $dataTables.load(dir,aryDataFiles, bolForceRun);
     exports.dataObjects = $dataTables.dataObjects;
     exports.errorCode = $dataTables.errorCode;
     exports.logCode = $dataTables.logCode;
