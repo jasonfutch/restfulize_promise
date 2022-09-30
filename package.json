@@ -10,12 +10,12 @@
     "url": "https://github.com/jasonfutch/restfulize_promise/issues"
   },
   "dependencies": {
+    "@elastic/elasticsearch": "6.8",
     "array-find-index": "^1.0.2",
     "async": "^1.5.2",
     "bluebird": "^3.5.0",
     "crypto": "0.0.3",
     "dateformat": "^1.0.12",
-    "elasticsearch": "^14.0.0",
     "extend": "^3.0.0",
     "marked": "^0.3.6",
     "node-uuid": "^1.4.7",
@@ -26,9 +26,8 @@
     "underscore.string": "^3.3.4",
     "validator": "^4.9.0"
   },
-  "devDependencies": {},
   "engines": {
-    "node": ">= 10"
+    "node": ">= 14"
   },
   "homepage": "https://github.com/jasonfutch/restfulize_promise",
   "license": "MIT",
