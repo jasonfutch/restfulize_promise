@@ -14,16 +14,15 @@
     "array-find-index": "^1.0.2",
     "async": "^1.5.2",
     "bluebird": "^3.5.0",
-    "crypto": "0.0.3",
     "dateformat": "^1.0.12",
     "extend": "^3.0.0",
     "marked": "^0.3.6",
-    "node-uuid": "^1.4.7",
     "pg": "^8.7.1",
     "semver": "^5.4.1",
     "sql-string": "^1.0.7",
     "underscore": "^1.8.3",
     "underscore.string": "^3.3.4",
+    "uuid": "^9.0.0",
     "validator": "^4.9.0"
   },
   "engines": {
