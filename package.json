@@ -10,7 +10,7 @@
     "url": "https://github.com/jasonfutch/restfulize_promise/issues"
   },
   "dependencies": {
-    "@elastic/elasticsearch": "6.8",
+    "@elastic/elasticsearch": "^7.17.0",
     "array-find-index": "^1.0.2",
     "async": "^1.5.2",
     "bluebird": "^3.5.0",
